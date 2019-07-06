@@ -1,0 +1,9 @@
+create index index1 on facttable(hourkey);
+create index index2 on facttable(datekey);
+create index index3 on facttable(pickuplocationID);
+create index index4 on facttable(dropofflocationID);
+create index index5 on facttable(passengercount);
+create index index6 on hourdimension(hourkey);
+create index index8 on datedimension(datekey);
+create index index10 on dropoffdimension(dropofflocationid);
+create index index12 on pickupdimension(pickuplocationid);

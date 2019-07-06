@@ -1,0 +1,9 @@
+create bitmap index index1 on facttable(hourkey);
+create bitmap index index2 on facttable(datekey);
+create bitmap index index3 on facttable(pickuplocationID);
+create bitmap index index4 on facttable(dropofflocationID);
+create bitmap index index5 on facttable(passengercount);
+create bitmap index index6 on hourdimension(hourkey);
+create bitmap index index8 on datedimension(datekey);
+create bitmap index index10 on dropoffdimension(dropofflocationid);
+create bitmap index index12 on pickupdimension(pickuplocationid);
