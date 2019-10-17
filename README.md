@@ -1,5 +1,3 @@
-new-york-taxi-data-warehouse
-
 Some files rescued from Redhat Linux box from MSc bitmap index assignment
 No data as data was 100 million lines
 
